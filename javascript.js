@@ -31,6 +31,6 @@ document.getElementById('buttonNext').addEventListener('click', newQuote);
 
 function newQuote(){
     var randomNumber = Math.floor(Math.random()* (quotes.length));
-    document.getElementById('quote-text').innerHTML = quotes[randomNumber][0];
+    document.getElementById('quote-text').innerHTML = "“" + quotes[randomNumber][0] + "”";
     document.getElementById('author').innerHTML = quotes[randomNumber][1];
 }
