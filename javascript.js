@@ -18,19 +18,30 @@ var quotes =[
     ["You will fail not because of what you don't know, but because of what you won't do that you already do know.","Gary Halbert"],
     ["The headline is the ‘ticket on the meat.’ Use it to flag down readers who are prospects for the kind of product you are advertising.", "David Ogilvy"],
     ["Get yourself a collection of good ads and DM pieces and read them aloud and copy them in your own handwriting.","Gary Halbert"],
-    ["Get yourself a collection of good ads and DM pieces and read them aloud and copy them in your own handwriting.","Gary Halbert"],
-    ["Get yourself a collection of good ads and DM pieces and read them aloud and copy them in your own handwriting.","Gary Halbert"],
-
-
-
-
 ]
 
 
 document.getElementById('buttonNext').addEventListener('click', newQuote);
+document.getElementById('twitter-share-button').addEventListener('click', shareTweet);
+var quot = document.getElementById('quote-text');
 
 function newQuote(){
     var randomNumber = Math.floor(Math.random()* (quotes.length));
     document.getElementById('quote-text').innerHTML = "“" + quotes[randomNumber][0] + "”";
     document.getElementById('author').innerHTML = quotes[randomNumber][1];
 }
+
+//href="https://twitter.com/intent/tweet?text=Theconsumer"
+
+
+
+
+
+//document.getElementById("twitter-share-button").onclick = function() {
+//   ("twitter-share-button").href="https://twitter.com/intent/tweet?text=" + quot; 
+ //   return false;
+//  };
+function shareTweet(){
+  document.getElementById("twitter-share-button").href = "https://twitter.com/intent/tweet?text=" + quot.innerHTML;
+}
+console.log(quot);

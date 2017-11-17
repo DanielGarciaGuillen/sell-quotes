@@ -79,7 +79,9 @@ body{
    padding-bottom: 5%;   
 }
 
-.buttonNext{
+
+
+.buttonNext{    
     grid-column: 2/3;
     grid-row: 5/5;
     width: 50px;
@@ -90,6 +92,19 @@ body{
     box-shadow: 2px 2px 2px 2px #577590;
     border: none;    
 }
+
+.twitter {    
+    grid-column: 3/4;
+    grid-row: 5/5;
+    width: 50px;
+    height: 25px;
+    justify-self: start;
+    background: none;    
+    border: none; 
+    color: #FDFFFF;
+}
+
+
 
 .footer {
     grid-column: 2/3;
