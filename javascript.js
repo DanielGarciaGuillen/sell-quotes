@@ -1,7 +1,7 @@
 var quotes =[
     ["Sell a good night’s sleep – not the mattres.", "Instructor at Academy of Art University"],
     ["The man who stops advertising to save money is like the man who stops the clock to save time.","Thomas Jefferson"],
-    ["The consumer isn’t a moron; she is your wife. You insult her intelligence if you assume that a mere slogan and a few vapid adjectives will persuade her to buy anything.", "David Ogilvy"],
+    ["The consumer isn’t a moron, she is your wife. You insult her intelligence if you assume that a mere slogan and a few vapid adjectives will persuade her to buy anything.", "David Ogilvy"],
     ["If it doesn’t sell, it isn’t creative.", "David Ogilvy"],
     ["What you say in advertising is more important than how you say it.","David Ogilvy"],
     ["Our business is infested with idiots who try to impress by using pretentious jargon.","David Ogilvy"],
@@ -24,6 +24,7 @@ var quotes =[
 document.getElementById('buttonNext').addEventListener('click', newQuote);
 document.getElementById('twitter-share-button').addEventListener('click', shareTweet);
 var quot = document.getElementById('quote-text');
+var auth = document.getElementById('author');
 
 function newQuote(){
     var randomNumber = Math.floor(Math.random()* (quotes.length));
@@ -31,17 +32,7 @@ function newQuote(){
     document.getElementById('author').innerHTML = quotes[randomNumber][1];
 }
 
-//href="https://twitter.com/intent/tweet?text=Theconsumer"
-
-
-
-
-
-//document.getElementById("twitter-share-button").onclick = function() {
-//   ("twitter-share-button").href="https://twitter.com/intent/tweet?text=" + quot; 
- //   return false;
-//  };
 function shareTweet(){
-  document.getElementById("twitter-share-button").href = "https://twitter.com/intent/tweet?text=" + quot.innerHTML;
+  document.getElementById("twitter-share-button").href = "https://twitter.com/intent/tweet?text=" + quot.innerHTML + " by " + auth.innerHTML;
 }
 console.log(quot);

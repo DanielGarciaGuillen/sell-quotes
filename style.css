@@ -74,7 +74,7 @@ body{
 
 }
 #author {
-   padding-left: 25%;
+   padding-left: 55%;
    padding-top: 5%;
    padding-bottom: 5%;   
 }
@@ -93,7 +93,7 @@ body{
     border: none;    
 }
 
-.twitter {    
+#twitter-share-button {    
     grid-column: 3/4;
     grid-row: 5/5;
     width: 50px;
@@ -102,6 +102,7 @@ body{
     background: none;    
     border: none; 
     color: #FDFFFF;
+    
 }
 
 
