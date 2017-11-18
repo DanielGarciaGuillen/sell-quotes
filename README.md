@@ -9,7 +9,7 @@ Just click on the next button and enjoy.
 ## Demo
 
 ## [Sell Quotes](https://danielgarciaguillen.github.io/sell-quotes/)
-![Sell Quotes](/images/sellquotes.jpg?raw=true "Sell Quotes")
+![Sell Quotes](/images/sellquotes.JPG?raw=true "Sell Quotes")
 
 
 ## Learnings
