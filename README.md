@@ -1,6 +1,6 @@
 # Project Title
 
-This is an Quotes Website build with CSS CSS Grid, Twitter and Vanilla Js based on the Free Code Camp Challenge.
+A quotes website build with CSS, CSS Grid, Twitter API and Vanilla JS based on the Free Code Camp Challenge.
 
 ## Getting Started
 
