@@ -22,17 +22,26 @@ var quotes =[
 
 
 document.getElementById('buttonNext').addEventListener('click', newQuote);
+document.getElementById('buttonNext').addEventListener('click', changeBackground);
 document.getElementById('twitter-share-button').addEventListener('click', shareTweet);
+
+
 var quot = document.getElementById('quote-text');
 var auth = document.getElementById('author');
 
 function newQuote(){
     var randomNumber = Math.floor(Math.random()* (quotes.length));
     document.getElementById('quote-text').innerHTML = "“" + quotes[randomNumber][0] + "”";
-    document.getElementById('author').innerHTML = quotes[randomNumber][1];
+    document.getElementById('author').innerHTML = quotes[randomNumber][1];  
+}
+
+function changeBackground() {
+    if(document.getElementById('staticBackground')){
+        console.log("yea");
+        document.getElementById('staticBackground').id= "animationBackground";
+    }
 }
 
 function shareTweet(){
   document.getElementById("twitter-share-button").href = "https://twitter.com/intent/tweet?text=" + quot.innerHTML + " by " + auth.innerHTML;
 }
-console.log(quot);
