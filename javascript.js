@@ -18,6 +18,14 @@ var quotes =[
     ["You will fail not because of what you don't know, but because of what you won't do that you already do know.","Gary Halbert"],
     ["The headline is the ‘ticket on the meat.’ Use it to flag down readers who are prospects for the kind of product you are advertising.", "David Ogilvy"],
     ["Get yourself a collection of good ads and DM pieces and read them aloud and copy them in your own handwriting.","Gary Halbert"],
+    ["You miss 100% of the shots you don’t take.","Wayne Gretzky"],
+    ["There is always room at the top.","Daniel Webster"],
+    ["Big shots are only little shots who keep shooting.","Christopher Morley"],
+    ["Outstanding people have one thing in common: An absolute sense of mission.","Zig Ziglar"],
+    ["You just can't beat the person who never gives up.","Babe Ruth"],
+    ["High expectations are the key to everything.","Sam Walton"],
+    ["The successful warrior is the average man, with laser-like focus.","Bruce Lee"],
+    ["Get yourself a collection of good ads and DM pieces and read them aloud and copy them in your own handwriting.","Gary Halbert"],
 ]
 
 
