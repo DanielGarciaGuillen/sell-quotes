@@ -25,7 +25,12 @@ var quotes =[
     ["You just can't beat the person who never gives up.","Babe Ruth"],
     ["High expectations are the key to everything.","Sam Walton"],
     ["The successful warrior is the average man, with laser-like focus.","Bruce Lee"],
-    ["Get yourself a collection of good ads and DM pieces and read them aloud and copy them in your own handwriting.","Gary Halbert"],
+    ["For every sale you miss because you're too enthusiastic, you will miss a hundred because you're not enthusiastic enough.","Zig Ziglar"],
+    ["All things being equal, people will do business with, and refer business to, those people they know, like, and trust..","Bob Burg"],
+    ["Ninety percent of selling is conviction and 10 percent is persuasion.","Shiv Khera"],
+    ["Obstacles are necessary for success because in selling, as in all careers of importance, victory comes only after many struggles and countless defeats.","Og Mandino"],
+    ["If you are not taking care of your customer, your competitor will.","Bob Hooey"],
+    ["To build a long-term, successful enterprise, when you don't close a sale, open a relationship.","Patricia Fripp"],
 ]
 
 
