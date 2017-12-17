@@ -4,7 +4,7 @@ A quotes website build with CSS, CSS Grid, Twitter API and Vanilla JS based on t
 
 ## Getting Started
 
-Just click on the next button and enjoy.
+Just click on the next button and enjoy. You can share the quote on twitter too!
 
 ## Demo
 
